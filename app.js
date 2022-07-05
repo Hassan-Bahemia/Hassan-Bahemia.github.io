@@ -6,7 +6,7 @@ menu.addEventListener('click', function() {
   menuLinks.classList.toggle('active');
 });
 
-var slideIndex = 1;
+  var slideIndex = 1;
   showDivs(slideIndex);
 
   function plusDivs(n) {
@@ -23,3 +23,11 @@ var slideIndex = 1;
     }
     x[slideIndex-1].style.display = "block";
   }
+
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}

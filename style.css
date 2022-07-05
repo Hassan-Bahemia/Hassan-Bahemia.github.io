@@ -215,12 +215,12 @@ body {
 }
 
 hr {
-  margin-top: 2em;
-  margin-left: 6.75em;
-  width: 75%;
-  color: black;
-  border-width: 2px;
-  border-style: solid;
+  position: relative;
+  top: 20px;
+  border: none;
+  height: 4px;
+  background: black;
+  margin-bottom: 50px;
 }
 
 /* About Me CSS */
@@ -253,56 +253,55 @@ hr {
 
 /* Video Size */
 video{
-  margin-top: 2em;
+  /* margin-top: 1em; */
   width: 100%;
   height: auto;
   z-index: 1;
 }
 
-.mySlides{
-  display:none;
+/* Slideshow Container */
+.slideshow__Container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-/* Slideshow container */
-.container {
-max-width: 1000px;
-position: relative;
-margin: auto;
+/* Hide Videos by default */
+.mySlides {
+  display: none;
 }
 
-/* Next & previous buttons */
-.leftarrow, .rightarrow {
+/* Next and Previous buttons */
+.prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: 100%;
+  width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  background-color: transparent;
-  border: transparent;
 }
 
-/* Position The Right Arrow to the right */
-.rightarrow {
+/* Position the "next button" to the right */
+.next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* Position the Left Arrow to the left */
-.leftarrow {
+/* Position the "next button" to the right */
+.prev {
   left: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.leftarrow:hover, .rightarrow:hover {
-  background-color: #f0e8c5;
+.prev:hover, .next:hover {
+  background-color: #f77062;
 }
 
 .overlay {
@@ -313,12 +312,12 @@ margin: auto;
   background-color: #000;
   overflow: hidden;
   width: 100%;
-  height:0;
-  transition: .5s ease;
+  height: 0;
+  transition: 1s ease;
   opacity: 0.8;
 }
 
-.container:hover .overlay {
+.slideshow__Container:hover .overlay {
   bottom: 0;
   height: 100%;
 }
