@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200&display=swap" rel="stylesheet">
-    <title>Online Portfolio</title>
+    <title>Mohammad Hassan Bahemia Areff - Portfolio</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -20,13 +20,10 @@
         </div>
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="/" class="navbar__links">Home</a>
+            <a href="/" class="navbar__links">About Me</a>
           </li>
           <li class="navbar__item">
-            <a href="/" class="navbar__links">College Projects</a>
-          </li>
-          <li class="navbar__item">
-            <a href="/" class="navbar__links">University Projects</a>
+            <a href="/" class="navbar__links">Projects</a>
           </li>
           <li class="navbar__item">
             <a href="/" class="navbar__links">CV</a>
@@ -37,15 +34,60 @@
         </ul>
       </div>
     </nav>
-    <!-- Home Section -->
-    <div class="Home">
-      <div class="Home__Container">
-        <div class="Home__Text__Container">
+    <!-- About Section -->
+    <div class="Name__Container">
+      <h1>Mohammad Hassan Bahemia Areff</h1>
+      <h2>Junior Programmer and Developer</h2>
+    </div>
+    <hr>
+    <div class="About__Me">
+      <div class="About__Me__Container">
           <h1>About Me</h1>
         </div>
+        <p class="About__Me__Text">
+          I am a Junior Games Programmer and Developer, and I have been interested in the fields of Games Programming ever since I started to play video games. I have created a variety of professional games such as a VR Horror game, Rollerball game, Multiplayer FPS game, Mobile Donut Simulation Game which has been released to the appstore and finally a procedurally generated game and I have also had mentoring with professional mentors from games studio's such as Sports Interactive and Creative Assembly and gaining more knowledge of programming itself. I have recently graduated with a First Class Degree within Games Programming so please feel free look at my portfolio of different projects and contact me for work.
       </div>
-    </div>
-
+      <hr>
+      <div class="Featured__Projects__Container">
+        <h1>Featured Projects</h1>
+      </div>
+      <div class="slide__container">
+        <div class="mySlides" style="display: block">
+          <video src="Videos/Donut-Pack-Gameplay.mp4" autoplay muted loop></video>
+          <a href="/"></a>
+            <div class="overlay">
+              <div class="text">
+                <p>Donut Pack</p>
+                <p>2D Mobile Baking Simulator</p>
+                <p>Available on Google Playstore</p>
+              </div>
+          </div>
+        </div>
+        <div class="mySlides" style="display: none">
+          <video src="Videos/Donut-Pack-Gameplay.mp4" autoplay muted loop></video>
+          <a href="/"></a>
+            <div class="overlay">
+              <div class="text">
+                <p>Donut Pack</p>
+                <p>2D Mobile Baking Simulator</p>
+                <p>Available on Google Playstore</p>
+              </div>
+          </div>
+        </div>
+        <div class="mySlides" style="display: none">
+          <video src="Videos/Donut-Pack-Gameplay.mp4" autoplay muted loop></video>
+          <a href="/"></a>
+            <div class="overlay">
+              <div class="text">
+                <p>Donut Pack</p>
+                <p>2D Mobile Baking Simulator</p>
+                <p>Available on Google Playstore</p>
+              </div>
+          </div>
+        </div>
+        <button type="leftarrow" onclick="plusDivs(-1)"></button>
+        <button type="rightarrow" onclick="plusDivs(1)"></button>
+      </div>
     <script src="app.js"></script>
   </body>
 </html>
