@@ -22,6 +22,24 @@ body {
   position: sticky;
   top: 0;
   z-index: 999;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .navbar__container {
@@ -212,6 +230,28 @@ body {
   align-items: center;
   margin: auto;
   font-size: 1.2rem;
+  width: 100%;
+  overflow: hidden;
+  margin-left: auto;
+  max-width: 900px;
+}
+
+.Name__Container h1{
+  animation: 2s Name__Container;
+}
+
+.Name__Container h2{
+  animation: 4s Name__Container;
+}
+
+@keyframes Name__Container {
+  from {
+     margin-left: -1200px;
+  }
+
+  to {
+     margin-left: 0%;
+  }
 }
 
 hr {
@@ -221,16 +261,31 @@ hr {
   height: 4px;
   background: black;
   margin-bottom: 50px;
+  width: 100%;
+  overflow: hidden;
+  margin-left: auto;
+  max-width: 1200px;
+  animation: 3s hr;
+}
+
+@keyframes hr {
+  from {
+     margin-left: -1900px;
+  }
+
+  to {
+     margin-left: 0%;
+  }
 }
 
 /* About Me CSS */
 .About__Me__Container {
-  margin-top: 2em;
-  margin-left: 20em;
+  margin: auto;
   border: solid black;
   border-width: 3px;
   width: 40%;
   font-size: .85rem;
+  animation: fadeIn 6s;
 }
 
 .About__Me__Text {
@@ -239,21 +294,37 @@ hr {
   font-size: 1.4rem;
   border: solid black;
   border-width: 3px;
+  width: 100%;
+  overflow: hidden;
+  margin-left: auto;
+  max-width: 1200px;
+  animation: 2s About__Me__Text;
+}
+
+@keyframes About__Me__Text {
+  from {
+     margin-left: -1900px;
+  }
+
+  to {
+     margin-left: 0%;
+  }
 }
 
 /* Featured Projects CSS */
 .Featured__Projects__Container {
-  margin-top: 2em;
-  margin-left: 20em;
+  margin: auto;
   border: solid black;
   border-width: 3px;
   width: 40%;
   font-size: .85rem;
+  animation: fadeIn 6s;
 }
+
 
 /* Video Size */
 video{
-  /* margin-top: 1em; */
+  margin-top: 1em;
   width: 100%;
   height: auto;
   z-index: 1;
@@ -261,9 +332,15 @@ video{
 
 /* Slideshow Container */
 .slideshow__Container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
+  width: 100%;
+  overflow: hidden;
+  margin-left: auto;
+  max-width: 1200px;
+  border: solid black;
+  border-width: 5px;
+  animation: fadeIn 4s;
 }
 
 /* Hide Videos by default */
