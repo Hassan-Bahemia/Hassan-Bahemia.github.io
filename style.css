@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   z-index: 999;
   animation: fadeIn 4s;
@@ -110,7 +110,7 @@ body {
   text-decoration: none;
   padding: 10px 20px;
   height: 50%;
-  width: 100%;
+  max-width: 175px;
   border: none;
   outline: none;
   border-radius: 4px;
@@ -188,15 +188,6 @@ body {
 
    .navbar__btn {
      padding-bottom: 2rem;
-   }
-
-   .button {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 20%;
-     height: 60px;
-     margin: 0;
    }
 
    #mobile-menu {
@@ -323,8 +314,7 @@ hr {
 
 
 /* Video Size */
-video{
-  margin-top: 1em;
+video {
   width: 100%;
   height: auto;
   z-index: 1;
@@ -409,4 +399,11 @@ video{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+#footer__container {
+text-align: center;
+padding: 3px;
+background-color: black;
+color: white;
 }
