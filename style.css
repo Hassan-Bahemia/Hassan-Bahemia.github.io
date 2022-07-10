@@ -55,21 +55,6 @@ body {
   padding-left: 50px;
 }
 
-#navbar__logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-}
-
 .fa-gem {
   margin-right: 0.5rem;
 }
@@ -232,12 +217,12 @@ body {
 }
 
 .Name__Container h2{
-  animation: 4s Name__Container;
+  animation: 3s Name__Container;
 }
 
 @keyframes Name__Container {
   from {
-     margin-left: -1200px;
+     margin-left: -1900px;
   }
 
   to {
@@ -277,6 +262,8 @@ hr {
   width: 40%;
   font-size: .85rem;
   animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
+  -moz-animation: fadeIn 6s;
 }
 
 .About__Me__Text {
@@ -310,6 +297,8 @@ hr {
   width: 40%;
   font-size: .85rem;
   animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
+  -moz-animation: fadeIn 6s;
 }
 
 
@@ -331,6 +320,8 @@ video {
   border: solid black;
   border-width: 5px;
   animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
 
 /* Hide Videos by default */
@@ -406,4 +397,119 @@ text-align: center;
 padding: 3px;
 background-color: black;
 color: white;
+}
+
+/* Project Section */
+
+/* Projects__Container */
+.project__container
+{
+  padding-top: 3rem;
+  font-size: 1.2rem;
+  width: 40%;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.project__container h1 {
+  animation: 3s project__container;
+  text-decoration: underline;
+}
+
+@keyframes project__container{
+  from {
+     margin-left: -1900px;
+  }
+
+  to {
+     margin-left: 0%;
+  }
+
+}
+
+.project_menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+}
+
+.project__item {
+    width: 200px;
+}
+
+.project__links {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: black;
+  max-width: 100px;
+  animation: fadeIn 8s;
+  -webkit-animation: fadeIn 8s;
+  -moz-animation: fadeIn 8s;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.project__links:hover {
+  color: #f77062;
+  transition: all 0.5s ease;
+}
+
+/* Solo Projects Section */
+
+.solo__project__container {
+  margin: auto;
+  border: solid black;
+  width: 40%;
+  animation: fadeIn 8s;
+  -webkit-animation: fadeIn 8s;
+  -moz-animation: fadeIn 8s;
+}
+
+.rollerball__container {
+  padding-top: 3rem;
+  padding-right: 750px;
+  text-decoration: underline;
+}
+
+.rollerball__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+}
+
+.infinite_runner__container {
+  padding-top: 3rem;
+  padding-right: 700px;
+  text-decoration: underline;
+}
+
+.infinite_runner__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+}
+
+.horror_vr__container {
+  padding-top: 3rem;
+  padding-right: 750px;
+  text-decoration: underline;
+}
+
+.horror_vr__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+}
+.horror_video {
+  padding-top: 3rem;
+  display: flex;
+  max-width: 500px;
 }
