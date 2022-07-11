@@ -48,7 +48,7 @@ body {
   height: 80px;
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
+  max-width: 850px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 50px;
@@ -391,6 +391,15 @@ video {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.other__container{
+  text-decoration: none;
+  color: white;
+}
+
+.playstore__design {
+  text-decoration: underline;
+  color: white;
+}
 
 #footer__container {
 text-align: center;
@@ -472,7 +481,6 @@ color: white;
 
 .rollerball__container {
   padding-top: 3rem;
-  padding-right: 750px;
   text-decoration: underline;
 }
 
@@ -481,11 +489,11 @@ color: white;
   border: solid black;
   font-size: 18px;
   text-align: left;
+  margin: auto;
 }
 
 .infinite_runner__container {
   padding-top: 3rem;
-  padding-right: 700px;
   text-decoration: underline;
 }
 
@@ -494,11 +502,11 @@ color: white;
   border: solid black;
   font-size: 18px;
   text-align: left;
+  margin: auto;
 }
 
 .horror_vr__container {
   padding-top: 3rem;
-  padding-right: 750px;
   text-decoration: underline;
 }
 
@@ -507,9 +515,49 @@ color: white;
   border: solid black;
   font-size: 18px;
   text-align: left;
+  margin: auto;
 }
 .horror_video {
-  padding-top: 3rem;
+  padding-top: 2rem;
   display: flex;
   max-width: 500px;
+  margin: auto;
+}
+
+.random_level__container {
+  padding-top: 3rem;
+  text-decoration: underline;
+}
+
+.random_level__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+}
+.random_level_video {
+  padding-top: 2rem;
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+}
+
+.stealth_ai__container {
+  padding-top: 3rem;
+  text-decoration: underline;
+}
+
+.stealth_ai__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+}
+.stealth_ai_video {
+  padding-top: 2rem;
+  display: flex;
+  max-width: 500px;
+  margin: auto;
 }
