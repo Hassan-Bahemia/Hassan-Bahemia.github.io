@@ -12,6 +12,25 @@ body {
   max-width: 950px;
 }
 
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  background-color: #d7e4ff;
+  outline: none; /* Remove outline */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
 .navbar {
   background: #131313;
   height: 80px;
@@ -19,7 +38,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  /* position: sticky; */
+  position: sticky;
   top: 0;
   z-index: 999;
   animation: fadeIn 4s;
@@ -273,20 +292,9 @@ hr {
   border: solid black;
   border-width: 3px;
   width: 100%;
-  overflow: hidden;
-  margin-left: auto;
-  max-width: 1200px;
-  animation: 2s About__Me__Text;
-}
-
-@keyframes About__Me__Text {
-  from {
-     margin-left: -1900px;
-  }
-
-  to {
-     margin-left: 0%;
-  }
+  animation: fadeIn 6s;
+  -webkit-animation: fadeIn 6s;
+  -moz-animation: fadeIn 6s;
 }
 
 /* Featured Projects CSS */
@@ -316,7 +324,7 @@ video {
   width: 100%;
   overflow: hidden;
   margin-left: auto;
-  max-width: 1200px;
+  max-width: 950px;
   border: solid black;
   border-width: 5px;
   animation: fadeIn 4s;
@@ -474,14 +482,17 @@ color: white;
   margin: auto;
   border: solid black;
   width: 40%;
-  animation: fadeIn 8s;
-  -webkit-animation: fadeIn 8s;
-  -moz-animation: fadeIn 8s;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
 
 .rollerball__container {
   padding-top: 3rem;
   text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
 
 .rollerball__text {
@@ -490,11 +501,17 @@ color: white;
   font-size: 18px;
   text-align: left;
   margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
 
 .infinite_runner__container {
   padding-top: 3rem;
   text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
 
 .infinite_runner__text {
@@ -503,11 +520,17 @@ color: white;
   font-size: 18px;
   text-align: left;
   margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
 
 .horror_vr__container {
   padding-top: 3rem;
   text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
 
 .horror_vr__text {
@@ -516,17 +539,26 @@ color: white;
   font-size: 18px;
   text-align: left;
   margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
 .horror_video {
   padding-top: 2rem;
   display: flex;
   max-width: 500px;
   margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
 
 .random_level__container {
   padding-top: 3rem;
   text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
 
 .random_level__text {
@@ -535,17 +567,26 @@ color: white;
   font-size: 18px;
   text-align: left;
   margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
 .random_level_video {
   padding-top: 2rem;
   display: flex;
   max-width: 500px;
   margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
 
 .stealth_ai__container {
   padding-top: 3rem;
   text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
 
 .stealth_ai__text {
@@ -554,10 +595,356 @@ color: white;
   font-size: 18px;
   text-align: left;
   margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
 .stealth_ai_video {
   padding-top: 2rem;
   display: flex;
   max-width: 500px;
   margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.multiplayer_fps__container {
+  padding-top: 3rem;
+  text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.multiplayer_fps__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+.multiplayer_fps_video {
+  padding-top: 2rem;
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.ecs__container {
+  padding-top: 3rem;
+  text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.ecs__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+.ecs_video {
+  padding-top: 2rem;
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+.openGL__container {
+  padding-top: 3rem;
+  text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.openGL__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+.openGL_video {
+  padding-top: 2rem;
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.fmp__container {
+  padding-top: 3rem;
+  text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.fmp__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+.fmp_video {
+  padding-top: 2rem;
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+/* Team Project Section */
+
+.team__project_container {
+  margin: auto;
+  border: solid black;
+  width: 40%;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.elemental_force__container {
+  padding-top: 3rem;
+  text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.elemental_force__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+.elemental_force_video {
+  padding-top: 2rem;
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.rebirth_of_athena__container {
+  padding-top: 3rem;
+  text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.rebirth_of_athena__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+.rebirth_of_athena_video {
+  padding-top: 2rem;
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.awayhome__container {
+  padding-top: 3rem;
+  text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.awayhome__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+.awayhome_image {
+  padding-top: 2rem;
+  display: flex;
+  max-width: 350px;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.awayhome_downloadlink {
+  color: black;
+  font-size: 24px;
+  margin: auto;
+  padding-top: 5rem;
+  text-decoration: none;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.donut__container {
+  padding-top: 3rem;
+  text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.donut__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+.donut_video {
+  padding-top: 2rem;
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.mobile__downloadlink {
+  color: black;
+  font-size: 24px;
+  margin: auto;
+  padding-top: 5rem;
+  text-decoration: none;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.treaure_thieves__container {
+  padding-top: 3rem;
+  text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.treaure_thieves__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+.treaure_thieves_video {
+  padding-top: 2rem;
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.gangguys__container {
+  padding-top: 3rem;
+  text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.gangguys__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+.gangguys_video {
+  padding-top: 2rem;
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.narrative__container {
+  padding-top: 3rem;
+  text-decoration: underline;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+.narrative__text {
+  max-width: 700px;
+  border: solid black;
+  font-size: 18px;
+  text-align: left;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+.narrative_video {
+  padding-top: 2rem;
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
 }
