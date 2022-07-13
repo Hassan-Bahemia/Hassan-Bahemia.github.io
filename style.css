@@ -948,3 +948,38 @@ color: white;
   -webkit-animation: fadeIn 4s;
   -moz-animation: fadeIn 4s;
 }
+
+/* Contact Section */
+.contact__container
+{
+  padding-top: 3rem;
+  font-size: 1.2rem;
+  width: 100%;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contact__container h1 {
+  animation: 3s contact__container;
+  text-decoration: underline;
+}
+
+@keyframes contact__container{
+  from {
+     margin-left: -1900px;
+  }
+
+  to {
+     margin-left: 0%;
+  }
+}
+
+.form-group {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: auto;
+  max-width: 1200px;
+  margin: auto;
+}
