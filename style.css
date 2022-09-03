@@ -251,7 +251,7 @@ body {
 }
 
 /* Name CSS */
-.Name__Container {
+.name__container {
   padding-top: 3rem;
   align-items: center;
   margin: auto;
@@ -262,15 +262,15 @@ body {
   max-width: 900px;
 }
 
-.Name__Container h1 {
+.name__container h1 {
   animation: 2s Name__Container;
 }
 
-.Name__Container h2 {
+.name__container h2 {
   animation: 3s Name__Container;
 }
 
-@keyframes Name__Container {
+@keyframes name__Container {
   from {
     margin-left: -1900px;
   }
@@ -305,7 +305,7 @@ hr {
 }
 
 /* About Me CSS */
-.About__Me__Container {
+.about__me__container {
   margin: auto;
   border: solid black;
   border-width: 3px;
@@ -316,7 +316,7 @@ hr {
   -moz-animation: fadeIn 6s;
 }
 
-.About__Me__Text {
+.about__me__text {
   margin-top: 2em;
   align-items: center;
   font-size: 1.4rem;
@@ -329,7 +329,7 @@ hr {
 }
 
 /* Featured Projects CSS */
-.Featured__Projects__Container {
+.featured__projects__container {
   margin: auto;
   border: solid black;
   border-width: 3px;
@@ -349,7 +349,7 @@ video {
 }
 
 /* Slideshow Container */
-.slideshow__Container {
+.slideshow__container {
   position: relative;
   margin: auto;
   width: 100%;
@@ -416,7 +416,7 @@ video {
   opacity: 0.8;
 }
 
-.slideshow__Container:hover .overlay {
+.slideshow__container:hover .overlay {
   bottom: 0;
   height: 100%;
 }
